@@ -1,4 +1,6 @@
-public class LazySingleton {
+import java.io.Serializable;
+
+public class LazySingleton implements Serializable {
 
     private static LazySingleton instance = null;
 
