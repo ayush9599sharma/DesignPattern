@@ -21,33 +21,40 @@ public class Burger {
     private Burger(BurgerBuilder builder){
         //initialize all fields and add validation
 
+        this.size = builder.size;
+        this.egg = builder.egg;
+        this.extraCheese = builder.extraCheese;
+        this.mayonese = builder.mayonese;
+        this.onion = builder.onion;
+        this.lettuce = builder.lettuce;
+
     }
 
-//    public String getSize(){
-//        return size;
-//    }
+    public String getSize(){
+        return size;
+    }
 
-//    public boolean isEgg(){
-//        return egg;
-//    }
-//
-//
-//    public boolean isExtraCheese(){
-//        return extraCheese;
-//    }
-//
-//    public boolean isMayonese(){
-//        return mayonese;
-//    }
-//
-//    public boolean isOnion(){
-//        return onion;
-//    }
-//
-//    public boolean isLettuce(){
-//        return  lettuce;
-//
-//    }
+    public boolean isEgg(){
+        return egg;
+    }
+
+
+    public boolean isExtraCheese(){
+        return extraCheese;
+    }
+
+    public boolean isMayonese(){
+        return mayonese;
+    }
+
+    public boolean isOnion(){
+        return onion;
+    }
+
+    public boolean isLettuce(){
+        return  lettuce;
+
+    }
 
 
 
